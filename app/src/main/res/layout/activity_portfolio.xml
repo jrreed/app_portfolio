@@ -20,28 +20,40 @@
         android:text="@string/portfolio_title" />
 
     <Button
+        android:id="@+id/spotify_streamer"
         style="@style/PortfolioButton"
+        android:onClick="launchSpotifyStreamer"
         android:text="@string/spotify_streamer"/>
 
     <Button
+        android:id="@+id/scores_app"
         style="@style/PortfolioButton"
+        android:onClick="launchScoresApp"
         android:text="@string/scores_app"/>
 
     <Button
+        android:id="@+id/library_app"
         style="@style/PortfolioButton"
+        android:onClick="launchLibraryApp"
         android:text="@string/library_app"/>
 
     <Button
+        android:id="@+id/build_it_bigger"
         style="@style/PortfolioButton"
+        android:onClick="launchBuildItBigger"
         android:text="@string/build_it_bigger"/>
 
     <Button
+        android:id="@+id/xyz_reader"
         style="@style/PortfolioButton"
+        android:onClick="launchXyzReader"
         android:text="@string/xyz_reader"/>
 
     <Button
+        android:id="@+id/capstone"
         style="@style/PortfolioButton"
         android:background="@color/red"
+        android:onClick="launchCapstone"
         android:textColor="@android:color/white"
         android:text="@string/capstone"/>
 
