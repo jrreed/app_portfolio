@@ -1,0 +1,2 @@
+I started by building out the App to match the Udacity look and feel. I then went back through and refactored the application to pull out common styles, strings, colors, etc. and move them into their respective XML resource files. I think I enjoyed that part the most. It reminded a lot of doing web development where the markup and the styles kept in separate css and html files.
+![app_portfolio screenshot](https://github.com/jrreed/app_portfolio/blob/master/screenshots/portfolio_app_270x480.png)
