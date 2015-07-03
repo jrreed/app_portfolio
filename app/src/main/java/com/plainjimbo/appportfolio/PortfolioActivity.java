@@ -1,5 +1,6 @@
 package com.plainjimbo.appportfolio;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -31,9 +32,9 @@ public class PortfolioActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.action_credits) {
+            Intent intent = new Intent(this, CreditsActivity.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
